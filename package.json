@@ -1,0 +1,23 @@
+{
+  "name": "notes-automation",
+  "version": "1.0.0",
+  "description": "Open or create notes using CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curiouskaran/notes-automation.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "automation"
+  ],
+  "author": "Karan Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curiouskaran/notes-automation/issues"
+  },
+  "homepage": "https://github.com/curiouskaran/notes-automation#readme"
+}
