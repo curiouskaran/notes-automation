@@ -1,4 +1,4 @@
-    # Notes Automation 
+# Notes Automation 
 
 create or open files quickly using CLI. Idea of this came from Kalle Hallden one day builds [link](https://www.youtube.com/watch?v=pADvJUafZZc&t=406s) 
 
