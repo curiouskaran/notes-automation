@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Open or create notes using CLI",
   "main": "index.js",
+  "bin": {
+    "note": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
