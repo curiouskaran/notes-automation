@@ -1,4 +1,4 @@
-# Notes Automation 
+    # Notes Automation 
 
 create or open files quickly using CLI. Idea of this came from Kalle Hallden one day builds [link](https://www.youtube.com/watch?v=pADvJUafZZc&t=406s) 
 
@@ -11,6 +11,7 @@ Minimal feature with maximum usablity.
 
 ## Prerequisite
 - Sublime text Editor
+- NodeJS v8 or above
 - Linux or Mac OS
 
 ### Tech
