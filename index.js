@@ -8,6 +8,7 @@ const { exec } = require("child_process");
 const [,,...args] = process.argv;
 const user = os.userInfo().username;
 const baseDirectory = `/home/${user}/notes`;
+const dateToday = new Intl.DateTimeFormat().format(new Date());
 
 const makeNotesDirectory = () => {
     fs.mkdir(baseDirectory,(err) => {
@@ -23,7 +24,15 @@ const makeNotesDirectory = () => {
 const genarateFileName = (fileName, ext ='') => {
     return new Promise((resolve, reject) => {
         if(fileName) {
-            resolve(`${fileName}${ext ? `.${ext}`:''}`);
+            switch (fileName) {
+                case 'todo':
+                    resolve(`todo_${dateToday}`)
+                    break;
+            
+                default:
+                    resolve(`${fileName}${ext ? `.${ext}`:''}`);
+                    break;
+            }
         } 
         fs.readdir(baseDirectory,(err,items) => {
             if(err === 'ENOENT') {
